@@ -40,7 +40,7 @@ function init() {
   });
 
   // create a timeline for the two transitions
-  var tl = new TimelineMax({ repeat: -1, repeatDelay: 1.0, yoyo: true });
+  var tl = new TimelineMax({ repeat: -1, repeatDelay: 1.0, yoyo: false });
 
   tl.add(slide.transition(), 0);
   tl.add(slide2.transition(), 0);
