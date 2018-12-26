@@ -33,7 +33,7 @@ function init() {
   });
 
   // slide 3 will be the transition in slide
-  var slide3 = new Slide(width, height, "in");
+  var slide3 = new Slide(width, height, "out");
   root.scene.add(slide3);
   new THREE.ImageLoader().load("joburg-cbd.jpg", function(image) {
     slide3.setImage(image);
