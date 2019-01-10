@@ -1,0 +1,22 @@
+{
+  "name": "mlatagas.github.io",
+  "version": "1.0.0",
+  "description": "developer portfolio",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlatagas/mlatagas.github.io.git"
+  },
+  "author": "andile mlata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlatagas/mlatagas.github.io/issues"
+  },
+  "homepage": "https://github.com/mlatagas/mlatagas.github.io#readme"
+}
