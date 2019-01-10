@@ -33,14 +33,14 @@ function init() {
   });
 
   // slide 3 will be the transition in slide
-  var slide3 = new Slide(width, height, "in");
+  var slide3 = new Slide(width, height, "out");
   root.scene.add(slide3);
   new THREE.ImageLoader().load("joburg-cbd.jpg", function(image) {
     slide3.setImage(image);
   });
 
   // create a timeline for the two transitions
-  var tl = new TimelineMax({ repeat: -1, repeatDelay: 1.0, yoyo: true });
+  var tl = new TimelineMax({ repeat: -1, repeatDelay: 1.0, yoyo: false });
 
   tl.add(slide.transition(), 0);
   tl.add(slide2.transition(), 0);
